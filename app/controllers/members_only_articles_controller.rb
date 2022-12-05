@@ -10,7 +10,7 @@ class MembersOnlyArticlesController < ApplicationController
 
   def show
     article = Article.find(params[:id])
-    render json: article
+    render json: article 
   end
 
   private
